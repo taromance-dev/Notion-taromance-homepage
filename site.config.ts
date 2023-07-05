@@ -2,23 +2,23 @@ import { siteConfig } from './lib/site-config';
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd1e89e9e42eb4ebf9486ae0374039efc',
+  rootNotionPageId: '2e28a3da0e154f7290defe37338b42de',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '2skydev blog',
-  domain: 'blog.2skydev.com',
-  author: '2skydev',
+  name: 'TAROMANCE',
+  domain: 'taromance.co.kr',
+  author: 'taromance',
 
   // open graph metadata (optional)
-  description: '2skydev blog - developer blog',
+  description: 'TAROMANCE HOMEPAGE',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: '2skydev',
+  github: 'taromance_dev',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -54,11 +54,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
+      pageId: '2e28a3da0e154f7290defe37338b42de',
     },
     {
       title: '카테고리',
-      pageId: '36400db511474331b5c1de6918212469',
+      pageId: '2e28a3da0e154f7290defe37338b42de',
       menuPage: true,
     },
   ],
